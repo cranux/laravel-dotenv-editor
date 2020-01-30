@@ -41,7 +41,7 @@ Add the following line to your composer.json require section:
 
     "require": {
         //other packages
-        "cranux/laravel-dotenv-editor": "^1.*"
+        "cranux/laravel-dotenv-editor": "^1.0"
     }
 
 Then run the composer update command:
