@@ -33,13 +33,7 @@ Install the package via the composer require command:
 
     composer require cranux/laravel-dotenv-editor
 
-In order to always get the latest version of 2.*, you should change the update conditions in your composer.json require section. Change this
-    
-    "cranux/laravel-dotenv-editor": "^1.0"
 
-to this
-
-    "cranux/laravel-dotenv-editor": "1.*"
 
 ### Add the package manually
 
@@ -47,7 +41,7 @@ Add the following line to your composer.json require section:
 
     "require": {
         //other packages
-        "cranux/laravel-dotenv-editor": "1.*"
+        "cranux/laravel-dotenv-editor": "^1.*"
     }
 
 Then run the composer update command:
